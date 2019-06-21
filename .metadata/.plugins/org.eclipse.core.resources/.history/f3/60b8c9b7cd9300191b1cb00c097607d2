@@ -1,0 +1,14 @@
+package com.bank.entry;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class BankAnalysisApplication {
+	
+	@RequestMapping("/index")
+	public String print() {
+		return "hello SpringBoot!";
+	}
+
+}
